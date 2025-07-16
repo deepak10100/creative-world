@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Creative World</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Creative World<span>.</span></div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <i style="    font-size: 1.5rem;" class="ri-menu-2-line"></i>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-left">
+      <div class="badge">
+        <div class="badge-icon"><i class="ri-award-fill"></i></div>
+        Innovative Solutions
+      </div>
+      <h1>Accelerating business growth through innovative technology</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.</p>
+      <button class="btn">Discover More</button>
+    </div>
+    <div class="hero-right">
+      <img src="https://i.pinimg.com/1200x/92/05/3b/92053b7efc8ca406d91977b1693efcd6.jpg" alt="Business Illustration">
+    </div>
+  </section>
+<section class="features">
+  <div class="feature-card">
+    <div class="icon-wrapper">
+      <i class="ri-settings-fill"></i>
+    </div>
+    <div>
+      <h3>Rapid Deployment</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+    </div>
+  </div>
+
+  <div class="feature-card">
+    <div class="icon-wrapper">
+      <i class="ri-computer-fill"></i>
+    </div>
+    <div>
+      <h3>Advanced Security</h3>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+  </div>
+
+  <div class="feature-card">
+    <div class="icon-wrapper">
+     <i class="ri-customer-service-fill"></i>
+    </div>
+    <div>
+      <h3>Dedicated Support</h3>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+</section>
+ <section class="portfolio-section">
+    <h2 class="portfolio-title">Portfolio</h2>
+    <div class="portfolio-underline">
+      <div class="line">
+        <div class="active"></div>
+      </div>
+    </div>
+    <p class="portfolio-desc">
+      Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    </p>
+    <div class="portfolio-filters" id="portfolio-filters">
+      <button class="portfolio-filter-btn active" data-filter="all">All Work</button>
+      <button class="portfolio-filter-btn" data-filter="gate">Automatic Gate</button>
+      <button class="portfolio-filter-btn" data-filter="curtain">STAGE CURTAIN</button>
+      <button class="portfolio-filter-btn" data-filter="curtain">CURTAIN & BLIND</button>
+      <button class="portfolio-filter-btn" data-filter="barrier">SECURITY BARRIER</button>
+      <button class="portfolio-filter-btn" data-filter="garage">GATE SYSTEM</button>
+      <button class="portfolio-filter-btn" data-filter="shutter">ROLLING SHUTTER</button>
+      <button class="portfolio-filter-btn" data-filter="sensor">GLASS SENSOR</button>
+      <button class="portfolio-filter-btn" data-filter="door">High Speed Door</button>
+    </div>
+    <div class="portfolio-products" id="portfolio-products">
+   
+    </div>
+  </section>
+ <section class="faq-section">
+   
+    <div class="support-box">
+      <div style="font-size: 2.5rem; margin-bottom: 1rem;">❓</div>
+      <h2>Still Have Questions?</h2>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel.</p>
+
+      <div class="contact-option"><i class="ri-mail-fill"></i> Email Support</div>
+      <div class="contact-option"><i class="ri-chat-1-fill"></i> Live Chat</div>
+      <div class="contact-option"><i class="ri-phone-line"></i> Call Us</div>
+    </div>
+
+   
+    <div class="faq-box">
+      <div class="accordion active">
+        <div class="question">Vivamus suscipit tortor eget felis porttitor volutpat?</div>
+        <div class="answer">
+          Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="question">Curabitur aliquet quam id dui posuere blandit?</div>
+        <div class="answer">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt.
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="question">Sed porttitor lectus nibh ullamcorper sit amet?</div>
+        <div class="answer">
+          Nulla porttitor accumsan tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="question">Nulla quis lorem ut libero malesuada feugiat?</div>
+        <div class="answer">
+          Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="testimonials-section">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <div class="testimonials-underline">
+      <span></span>
+      <span class="active"></span>
+      <span></span>
+    </div>
+    <p class="testimonials-desc">
+      Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    </p>
+    <div class="testimonials-cards">
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="testimonial-footer">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="user" class="testimonial-avatar"/>
+            <div>
+              <div class="testimonial-name">Robert Johnson</div>
+              <div class="testimonial-role">Marketing Director</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et maecenas aliquam.
+        </div>
+        <div class="testimonial-footer">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/9.jpg" alt="user" class="testimonial-avatar"/>
+            <div>
+              <div class="testimonial-name">Lisa Williams</div>
+              <div class="testimonial-role">Product Manager</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram.
+        </div>
+        <div class="testimonial-footer">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="testimonial-user">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="user" class="testimonial-avatar"/>
+            <div>
+              <div class="testimonial-name">Emma Parker</div>
+              <div class="testimonial-role">UX Designer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          Nulla facilisi. Pellentesque nec erat vitae lacus sodales hendrerit. Suspendisse potenti. Sed at dui ut elit dictum convallis.
+        </div>
+        <div class="testimonial-footer">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="user" class="testimonial-avatar"/>
+            <div>
+              <div class="testimonial-name">James Smith</div>
+              <div class="testimonial-role">Developer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+        </div>
+        <div class="testimonial-footer">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="testimonial-user">
+            <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="user" class="testimonial-avatar"/>
+            <div>
+              <div class="testimonial-name">Sophia Lee</div>
+              <div class="testimonial-role">HR Manager</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials-pagination">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+ <section class="contact-section">
+    <h2 class="contact-title">Contact</h2>
+    <div class="contact-underline">
+      <span></span>
+      <span class="active"></span>
+      <span></span>
+    </div>
+    <p class="contact-desc">
+      Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    </p>
+    <div class="contact-cards">
+      <div class="contact-card">
+        <div class="contact-icon">
+          <!-- Location Icon SVG -->
+          <svg width="32" height="32" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <circle cx="12" cy="10" r="3"></circle>
+            <path d="M12 2c4.418 0 8 3.582 8 8 0 5.25-8 12-8 12S4 15.25 4 10c0-4.418 3.582-8 8-8z"></path>
+          </svg>
+        </div>
+        <h3 class="contact-card-title">Our Address</h3>
+        <div class="contact-card-info">
+          Dundahera ghaziabad India UP 201009
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">
+       
+          <svg width="32" height="32" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3 3.18 2 2 0 0 1 5 1h4.09a2 2 0 0 1 2 1.72l.13 1.09a2 2 0 0 1-1.13 2.13l-2.2.88a16 16 0 0 0 6.24 6.24l.88-2.2a2 2 0 0 1 2.13-1.13l1.09.13A2 2 0 0 1 23 14.91z"></path>
+          </svg>
+        </div>
+        <h3 class="contact-card-title">Contact Number</h3>
+        <div class="contact-card-info">
+          Mobile: 1234567890<br>
+          Email: info@example.com
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">
+        
+          <svg width="32" height="32" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <h3 class="contact-card-title">Opening Hour</h3>
+        <div class="contact-card-info">
+          Monday - Friday: 9:00 - 18:00<br>
+          Sunday: Closed
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="contact-form-container">
+      <form class="contact-form" autocomplete="off">
+        <div class="form-row">
+          <div class="form-group">
+         
+            <svg width="24" height="24" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M16 20v-2a4 4 0 0 0-8 0v2"/></svg>
+            <input class="form-input" type="text" name="name" required placeholder="Your name*">
+          </div>
+          <div class="form-group">
+           
+            <svg width="24" height="24" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><polyline points="2 7 12 13 22 7"/></svg>
+            <input class="form-input" type="email" name="email" required placeholder="Email address*">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+           
+            <svg width="24" height="24" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3 3.18 2 2 0 0 1 5 1h4.09a2 2 0 0 1 2 1.72l.13 1.09a2 2 0 0 1-1.13 2.13l-2.2.88a16 16 0 0 0 6.24 6.24l.88-2.2a2 2 0 0 1 2.13-1.13l1.09.13A2 2 0 0 1 23 14.91z"></path></svg>
+            <input class="form-input" type="tel" name="phone" required placeholder="Phone number*">
+          </div>
+          <div class="form-group select">
+          
+            <svg width="24" height="24" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <select class="form-select" name="service" required>
+              <option value="">Select service*</option>
+              <option value="web">Web Development</option>
+              <option value="uiux">UI/UX Design</option>
+              <option value="mobile">Mobile App</option>
+              <option value="seo">SEO</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group textarea" style="width:100%;">
+           
+            <svg width="24" height="24" fill="none" stroke="#5956e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            <textarea class="form-textarea" name="message" required placeholder="Write a message*"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="contact-form-btn">Submit Message</button>
+      </form>
+    </div>
+   
+
+  </section>
+
+ <footer class="footer" style="text-align: center;">
+    <div class="footer-container">
+      <div class="footer-col">
+        <div class="footer-brand">MyWebsite</div>
+        <div class="footer-contact">
+          Dundhera ghaziabad<br>
+          India, UP 201009<br><br>
+          <strong>Phone:</strong> 1234567890<br>
+          <strong>Email:</strong> info@example.com
+        </div>
+        <div class="footer-social">
+          <a href="#" title="X" aria-label="X">
+            
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M4 4L20 20M20 4L4 20"/>
+            </svg>
+          </a>
+          <a href="#" title="Facebook" aria-label="Facebook">
+           
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H6v4h4v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="#" title="Instagram" aria-label="Instagram">
+           
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" title="LinkedIn" aria-label="LinkedIn">
+           
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <path d="M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-4 0v6h-4v-6a6 6 0 0 1 6-6z"/>
+              <circle cx="8" cy="8" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Product Management</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Hic solutasetp</h3>
+        <ul>
+          <li><a href="#">Molestiae accusamus iure</a></li>
+          <li><a href="#">Excepturi dignissimos</a></li>
+          <li><a href="#">Suscipit distinctio</a></li>
+          <li><a href="#">Dilecta</a></li>
+          <li><a href="#">Sit quas consectetur</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Nobis illum</h3>
+        <ul>
+          <li><a href="#">Ipsam</a></li>
+          <li><a href="#">Laudantium dolorum</a></li>
+          <li><a href="#">Dinera</a></li>
+          <li><a href="#">Trodelas</a></li>
+          <li><a href="#">Flexo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © Copyright <strong>MyWebsite</strong> All Rights Reserved <br>
+      Designed by <a href="" target="_blank" rel="noopener">Deepak</a>
+    </div>
+  </footer>
+
+ 
+<script src="./js/index.js"></script>
+</body>
+</html>
