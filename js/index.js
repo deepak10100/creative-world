@@ -4,7 +4,6 @@
     let current = 0;
     let interval = null;
     const slideInterval = 4000;
-
     function getVisibleCount() {
       return window.innerWidth <= 900 ? 1 : 3;
     }
